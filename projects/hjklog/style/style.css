@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0; margin: 0;
+}
+
+
+body {
+    font-family: 'IBMPlexSansKR-SemiBold';
+    padding-top: 70px;
+}
+
+.custom-text-color .logo{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.custom-text-color .logo:hover{
+    color: rgba(193,53,132,1);
+}
+
+.bg-op {
+    width: 100vw;
+    height: 100vh;
+    /*background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);*/
+    background: linear-gradient(45deg, rgba(24, 25, 29, 0.5), rgba(88,81,219,0.5),rgba(131,58,180,0.5), rgba(193,53,132,0.5), rgba(225,48,108,0.5), rgba(253,29,29,0.5)), url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 88% center;
+    background-size: cover;
+}
+
+.main-text {
+    color: #ffffff;
+    margin-top: 35%;
+}
+
+.bg-op .navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+
+.bg-op .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.main-section .btn-outline-primary {
+    color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0) !important;
+}
+.main-section .btn-outline-success {
+    color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0) !important;
+}
+.main-section .btn {
+    border: 2px solid #ffffff;
+}
+
+.main-section .btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: rgba(193,53,132,1);
+    border-color: rgba(193,53,132,1);
+}
+.main-section .btn-outline-success:hover {
+    color: #ffffff;
+    background-color: rgba(88,81,219,1);
+    border-color: rgba(88,81,219,1);
+}
+
+.info {
+    margin-top: 25px;
+}
+
+.info span {
+    font-size: 1.3rem;
+}
+
+
+@media only screen and (max-width: 991.98px) and (orientation: landscape) {
+    .main-text {
+        margin-top: 30% !important;
+    }
+}
+/*
+@media (max-width: 991.98px) {
+    .navbar-collapse .collapse .show {
+        background: #ffffff !important;
+    }
+}
+*/
